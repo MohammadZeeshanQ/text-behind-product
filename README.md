@@ -1,3 +1,8 @@
+# Designed Inpired By:
+
+`https://dribbble.com/stijndewilligen`
+`https://dribbble.com/shots/5433290-Cube-Bike-Concept-Page`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
