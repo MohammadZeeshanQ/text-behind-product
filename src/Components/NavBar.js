@@ -8,6 +8,7 @@ import PermIdentityOutlinedIcon from '@material-ui/icons/PermIdentityOutlined';
 import MenuOutlinedIcon from '@material-ui/icons/MenuOutlined';
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 import HighlightOffOutlinedIcon from '@material-ui/icons/HighlightOffOutlined';
+import PolymerIcon from '@material-ui/icons/Polymer';
 
 
 const useStyles = makeStyles({
@@ -33,6 +34,8 @@ const useStyles = makeStyles({
     },
 
     logo: {
+        display: 'flex',
+        alignItems: 'center',
         letterSpacing: '2px',
     },
 
@@ -113,7 +116,9 @@ export default function NavBar() {
                 <Toolbar className={classes.wrapper}>
 
                     <div className={classes.logoContainer}>
+
                         <Typography className={classes.logo} variant='h5'>
+                            <PolymerIcon style={{ fontSize: '2rem', marginRight: '.3rem', }} />
                             CUBE
                         </Typography>
                     </div>
